@@ -13,6 +13,8 @@
 		0944FB2C275B9F8C00BBBA47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0944FB2A275B9F8C00BBBA47 /* Main.storyboard */; };
 		0944FB2E275B9F8D00BBBA47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0944FB2D275B9F8D00BBBA47 /* Assets.xcassets */; };
 		0944FB31275B9F8D00BBBA47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0944FB2F275B9F8D00BBBA47 /* LaunchScreen.storyboard */; };
+		0944FB3A275B9FAD00BBBA47 /* app_privacy policy_HimaQ.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0944FB39275B9FAD00BBBA47 /* app_privacy policy_HimaQ.pdf */; };
+		B168C644A8280176CD848E6D /* Pods_QuizApp_PrivacyPolicy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB5529B452BAD11F7D8D095 /* Pods_QuizApp_PrivacyPolicy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,10 @@
 		0944FB2D275B9F8D00BBBA47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0944FB30275B9F8D00BBBA47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0944FB32275B9F8D00BBBA47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0944FB39275B9FAD00BBBA47 /* app_privacy policy_HimaQ.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "app_privacy policy_HimaQ.pdf"; sourceTree = "<group>"; };
+		8BB5529B452BAD11F7D8D095 /* Pods_QuizApp_PrivacyPolicy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizApp_PrivacyPolicy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A940C0E772EDC50DB9A86398 /* Pods-QuizApp_PrivacyPolicy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizApp_PrivacyPolicy.release.xcconfig"; path = "Target Support Files/Pods-QuizApp_PrivacyPolicy/Pods-QuizApp_PrivacyPolicy.release.xcconfig"; sourceTree = "<group>"; };
+		B38FAC2878557AE3647793CB /* Pods-QuizApp_PrivacyPolicy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizApp_PrivacyPolicy.debug.xcconfig"; path = "Target Support Files/Pods-QuizApp_PrivacyPolicy/Pods-QuizApp_PrivacyPolicy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B168C644A8280176CD848E6D /* Pods_QuizApp_PrivacyPolicy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +47,11 @@
 		0944FB18275B9F8C00BBBA47 = {
 			isa = PBXGroup;
 			children = (
+				0944FB39275B9FAD00BBBA47 /* app_privacy policy_HimaQ.pdf */,
 				0944FB23275B9F8C00BBBA47 /* QuizApp_PrivacyPolicy */,
 				0944FB22275B9F8C00BBBA47 /* Products */,
+				D97FBEC10238EE34E4832B90 /* Pods */,
+				18A0AF0555DFF663B89AA5C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +77,24 @@
 			path = QuizApp_PrivacyPolicy;
 			sourceTree = "<group>";
 		};
+		18A0AF0555DFF663B89AA5C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BB5529B452BAD11F7D8D095 /* Pods_QuizApp_PrivacyPolicy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D97FBEC10238EE34E4832B90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B38FAC2878557AE3647793CB /* Pods-QuizApp_PrivacyPolicy.debug.xcconfig */,
+				A940C0E772EDC50DB9A86398 /* Pods-QuizApp_PrivacyPolicy.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +102,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0944FB35275B9F8D00BBBA47 /* Build configuration list for PBXNativeTarget "QuizApp_PrivacyPolicy" */;
 			buildPhases = (
+				01031D90964ED804A2EA3DE6 /* [CP] Check Pods Manifest.lock */,
 				0944FB1D275B9F8C00BBBA47 /* Sources */,
 				0944FB1E275B9F8C00BBBA47 /* Frameworks */,
 				0944FB1F275B9F8C00BBBA47 /* Resources */,
@@ -125,12 +154,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				0944FB31275B9F8D00BBBA47 /* LaunchScreen.storyboard in Resources */,
+				0944FB3A275B9FAD00BBBA47 /* app_privacy policy_HimaQ.pdf in Resources */,
 				0944FB2E275B9F8D00BBBA47 /* Assets.xcassets in Resources */,
 				0944FB2C275B9F8C00BBBA47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01031D90964ED804A2EA3DE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuizApp_PrivacyPolicy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0944FB1D275B9F8C00BBBA47 /* Sources */ = {
@@ -283,6 +338,7 @@
 		};
 		0944FB36275B9F8D00BBBA47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B38FAC2878557AE3647793CB /* Pods-QuizApp_PrivacyPolicy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +358,7 @@
 		};
 		0944FB37275B9F8D00BBBA47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A940C0E772EDC50DB9A86398 /* Pods-QuizApp_PrivacyPolicy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
